@@ -20,15 +20,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-setuptools-0.6c5-X-src.tar.bz2
+  unpack python-setuptools-0.6c6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-setuptools-0.6c5-X.cygport all
+  cygport ./python-setuptools-0.6c6-X.cygport all
 
 This will create:
-  /usr/src/python-setuptools-0.6c5-X-src.tar.bz2
-  /usr/src/python-setuptools-0.6c5-X.tar.bz2
+  /usr/src/python-setuptools-0.6c6-X-src.tar.bz2
+  /usr/src/python-setuptools-0.6c6-X.tar.bz2
 
 -------------------------------------------
 
@@ -42,12 +42,12 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/pkg_resources.py
   /usr/lib/python2.5/site-packages/pkg_resources.pyc
   /usr/lib/python2.5/site-packages/pkg_resources.pyo
-  /usr/lib/python2.5/site-packages/setuptools-0.6c5-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/setuptools-0.6c5-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/setuptools-0.6c5-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/setuptools-0.6c5-py2.5.egg-info/entry_points.txt
-  /usr/lib/python2.5/site-packages/setuptools-0.6c5-py2.5.egg-info/not-zip-safe
-  /usr/lib/python2.5/site-packages/setuptools-0.6c5-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/setuptools-0.6c6-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/setuptools-0.6c6-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/setuptools-0.6c6-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/setuptools-0.6c6-py2.5.egg-info/entry_points.txt
+  /usr/lib/python2.5/site-packages/setuptools-0.6c6-py2.5.egg-info/not-zip-safe
+  /usr/lib/python2.5/site-packages/setuptools-0.6c6-py2.5.egg-info/top_level.txt
   /usr/lib/python2.5/site-packages/setuptools/__init__.py
   /usr/lib/python2.5/site-packages/setuptools/__init__.pyc
   /usr/lib/python2.5/site-packages/setuptools/__init__.pyo
@@ -146,12 +146,15 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/site.py
   /usr/lib/python2.5/site-packages/site.pyc
   /usr/lib/python2.5/site-packages/site.pyo
-  /usr/share/doc/Cygwin/setuptools-0.6c5.README
-  /usr/share/doc/python-setuptools-0.6c5/README.txt
+  /usr/share/doc/Cygwin/setuptools-0.6c6.README
+  /usr/share/doc/python-setuptools-0.6c6/README.txt
 
 ------------------
 
 Port Notes:
+
+----- version 0.6c6-1 -----
+Version bump.
 
 ----- version 0.6c5-2 -----
 Rebuilt for python-2.5.
