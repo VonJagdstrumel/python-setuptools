@@ -1,4 +1,4 @@
 category: Python
-requires: cygwin python
+requires: python
 sdesc: "PyPI Python eggs package management tool"
 ldesc: "PyPI Python eggs package management tool"
