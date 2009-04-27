@@ -3,12 +3,12 @@ python-setuptools
 PyPI Python eggs package management tool
 
 Runtime requirements:
-  python-2.5.2-3
+  python-2.5.4-10
 
 Build requirements:
-  cygwin-1.5.25-15
-  cygport-0.4.2-1
-  python-2.5.2-3
+  cygwin-1.7.0-45
+  cygport-0.9.6-1
+  python-2.5.4-10
 
 Canonical website:
   http://cheeseshop.python.org/pypi/setuptools
@@ -148,26 +148,14 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/site.py
   /usr/lib/python2.5/site-packages/site.pyc
   /usr/lib/python2.5/site-packages/site.pyo
-  /usr/share/doc/python-setuptools-0.6c9/README.txt
+  /usr/share/doc/python-setuptools/README.txt
 
 ------------------
 
 Port Notes:
 
------ version 0.6c9-1 -----
-Version bump.
-
------ version 0.6c8-1 -----
-Version bump.
-
------ version 0.6c6-1 -----
-Version bump.
-
------ version 0.6c5-2 -----
-Rebuilt for python-2.5.
-
------ version 0.6c5-1 -----
-Initial release for Cygwin.
+----- version 0.6c9-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
