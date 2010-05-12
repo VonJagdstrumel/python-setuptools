@@ -3,12 +3,12 @@ python-setuptools
 PyPI Python eggs package management tool
 
 Runtime requirements:
-  python-2.5.4-10
+  python-2.6.5-1
 
 Build requirements:
-  cygwin-1.7.0-45
-  cygport-0.9.6-1
-  python-2.5.4-10
+  cygwin-1.7.5-1
+  cygport-0.9.83-1
+  python-2.6.5-1
 
 Canonical website:
   http://cheeseshop.python.org/pypi/setuptools
@@ -19,140 +19,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-setuptools-0.6c9-X-src.tar.bz2
+  unpack python-setuptools-0.6c11-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-setuptools-0.6c9-X.cygport all
+  cygport ./python-setuptools-0.6c11-X.cygport all
 
 This will create:
-  /usr/src/python-setuptools-0.6c9-X-src.tar.bz2
-  /usr/src/python-setuptools-0.6c9-X.tar.bz2
+  /usr/src/python-setuptools-0.6c11-X-src.tar.bz2
+  /usr/src/python-setuptools-0.6c11-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/easy_install
-  /usr/bin/easy_install-2.5
-  /usr/lib/python2.5/site-packages/easy_install.py
-  /usr/lib/python2.5/site-packages/easy_install.pyc
-  /usr/lib/python2.5/site-packages/easy_install.pyo
-  /usr/lib/python2.5/site-packages/pkg_resources.py
-  /usr/lib/python2.5/site-packages/pkg_resources.pyc
-  /usr/lib/python2.5/site-packages/pkg_resources.pyo
-  /usr/lib/python2.5/site-packages/setuptools-0.6c9-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/setuptools-0.6c9-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/setuptools-0.6c9-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/setuptools-0.6c9-py2.5.egg-info/entry_points.txt
-  /usr/lib/python2.5/site-packages/setuptools-0.6c9-py2.5.egg-info/top_level.txt
-  /usr/lib/python2.5/site-packages/setuptools-0.6c9-py2.5.egg-info/zip-safe
-  /usr/lib/python2.5/site-packages/setuptools/__init__.py
-  /usr/lib/python2.5/site-packages/setuptools/__init__.pyc
-  /usr/lib/python2.5/site-packages/setuptools/__init__.pyo
-  /usr/lib/python2.5/site-packages/setuptools/archive_util.py
-  /usr/lib/python2.5/site-packages/setuptools/archive_util.pyc
-  /usr/lib/python2.5/site-packages/setuptools/archive_util.pyo
-  /usr/lib/python2.5/site-packages/setuptools/cli.exe
-  /usr/lib/python2.5/site-packages/setuptools/command/__init__.py
-  /usr/lib/python2.5/site-packages/setuptools/command/__init__.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/__init__.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/alias.py
-  /usr/lib/python2.5/site-packages/setuptools/command/alias.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/alias.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/bdist_egg.py
-  /usr/lib/python2.5/site-packages/setuptools/command/bdist_egg.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/bdist_egg.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/bdist_rpm.py
-  /usr/lib/python2.5/site-packages/setuptools/command/bdist_rpm.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/bdist_rpm.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/bdist_wininst.py
-  /usr/lib/python2.5/site-packages/setuptools/command/bdist_wininst.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/bdist_wininst.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/build_ext.py
-  /usr/lib/python2.5/site-packages/setuptools/command/build_ext.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/build_ext.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/build_py.py
-  /usr/lib/python2.5/site-packages/setuptools/command/build_py.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/build_py.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/develop.py
-  /usr/lib/python2.5/site-packages/setuptools/command/develop.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/develop.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/easy_install.py
-  /usr/lib/python2.5/site-packages/setuptools/command/easy_install.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/easy_install.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/egg_info.py
-  /usr/lib/python2.5/site-packages/setuptools/command/egg_info.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/egg_info.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/install.py
-  /usr/lib/python2.5/site-packages/setuptools/command/install.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/install.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/install_egg_info.py
-  /usr/lib/python2.5/site-packages/setuptools/command/install_egg_info.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/install_egg_info.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/install_lib.py
-  /usr/lib/python2.5/site-packages/setuptools/command/install_lib.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/install_lib.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/install_scripts.py
-  /usr/lib/python2.5/site-packages/setuptools/command/install_scripts.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/install_scripts.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/register.py
-  /usr/lib/python2.5/site-packages/setuptools/command/register.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/register.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/rotate.py
-  /usr/lib/python2.5/site-packages/setuptools/command/rotate.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/rotate.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/saveopts.py
-  /usr/lib/python2.5/site-packages/setuptools/command/saveopts.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/saveopts.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/sdist.py
-  /usr/lib/python2.5/site-packages/setuptools/command/sdist.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/sdist.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/setopt.py
-  /usr/lib/python2.5/site-packages/setuptools/command/setopt.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/setopt.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/test.py
-  /usr/lib/python2.5/site-packages/setuptools/command/test.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/test.pyo
-  /usr/lib/python2.5/site-packages/setuptools/command/upload.py
-  /usr/lib/python2.5/site-packages/setuptools/command/upload.pyc
-  /usr/lib/python2.5/site-packages/setuptools/command/upload.pyo
-  /usr/lib/python2.5/site-packages/setuptools/depends.py
-  /usr/lib/python2.5/site-packages/setuptools/depends.pyc
-  /usr/lib/python2.5/site-packages/setuptools/depends.pyo
-  /usr/lib/python2.5/site-packages/setuptools/dist.py
-  /usr/lib/python2.5/site-packages/setuptools/dist.pyc
-  /usr/lib/python2.5/site-packages/setuptools/dist.pyo
-  /usr/lib/python2.5/site-packages/setuptools/extension.py
-  /usr/lib/python2.5/site-packages/setuptools/extension.pyc
-  /usr/lib/python2.5/site-packages/setuptools/extension.pyo
-  /usr/lib/python2.5/site-packages/setuptools/gui.exe
-  /usr/lib/python2.5/site-packages/setuptools/package_index.py
-  /usr/lib/python2.5/site-packages/setuptools/package_index.pyc
-  /usr/lib/python2.5/site-packages/setuptools/package_index.pyo
-  /usr/lib/python2.5/site-packages/setuptools/sandbox.py
-  /usr/lib/python2.5/site-packages/setuptools/sandbox.pyc
-  /usr/lib/python2.5/site-packages/setuptools/sandbox.pyo
-  /usr/lib/python2.5/site-packages/setuptools/tests/__init__.py
-  /usr/lib/python2.5/site-packages/setuptools/tests/__init__.pyc
-  /usr/lib/python2.5/site-packages/setuptools/tests/__init__.pyo
-  /usr/lib/python2.5/site-packages/setuptools/tests/doctest.py
-  /usr/lib/python2.5/site-packages/setuptools/tests/doctest.pyc
-  /usr/lib/python2.5/site-packages/setuptools/tests/doctest.pyo
-  /usr/lib/python2.5/site-packages/setuptools/tests/test_packageindex.py
-  /usr/lib/python2.5/site-packages/setuptools/tests/test_packageindex.pyc
-  /usr/lib/python2.5/site-packages/setuptools/tests/test_packageindex.pyo
-  /usr/lib/python2.5/site-packages/setuptools/tests/test_resources.py
-  /usr/lib/python2.5/site-packages/setuptools/tests/test_resources.pyc
-  /usr/lib/python2.5/site-packages/setuptools/tests/test_resources.pyo
-  /usr/lib/python2.5/site-packages/site.py
-  /usr/lib/python2.5/site-packages/site.pyc
-  /usr/lib/python2.5/site-packages/site.pyo
-  /usr/share/doc/python-setuptools/README.txt
-
-------------------
-
 Port Notes:
+
+----- version 0.6c11-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 0.6c9-10 -----
 Initial release for Cygwin 1.7.
