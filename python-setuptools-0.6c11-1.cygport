@@ -1,7 +1,0 @@
-inherit distutils
-
-DESCRIPTION="PyPI Python eggs package management tool"
-HOMEPAGE="http://cheeseshop.python.org/pypi/setuptools"
-SRC_URI="http://cheeseshop.python.org/packages/source/${ORIG_PN:0:1}/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
-
-DIFF_EXCLUDES="*.egg-info"
