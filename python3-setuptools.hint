@@ -1,0 +1,5 @@
+category: Python
+requires: python3
+external-source: python-setuptools
+sdesc: "Py3K package management tool"
+ldesc: "PyPI Python eggs package management tool"
