@@ -1,8 +1,4 @@
 ORIG_PN="distribute"
-inherit distutils-multi
+inherit python-distutils
 
 DESCRIPTION="PyPI Python eggs package management tool"
-
-PKG_NAMES="python-setuptools python3-setuptools"
-python_setuptools_CONTENTS="--exclude=easy_install-3.* usr/bin/ ${PYTHON_SITELIB#/} usr/share/doc/"
-python3_setuptools_CONTENTS="usr/bin/*-3.* ${PYTHON3_SITELIB#/}"
