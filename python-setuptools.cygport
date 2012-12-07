@@ -2,7 +2,7 @@ ORIG_PN="distribute"
 inherit python-distutils
 
 NAME="python-setuptools"
-VERSION=0.6.30
+VERSION=0.6.32
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python package management tool"
