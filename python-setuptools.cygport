@@ -1,13 +1,15 @@
-inherit python-distutils
+inherit python-wheel
 
 NAME="python-setuptools"
-VERSION=15.2
+VERSION=34.3.2
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python package management tool"
 DESCRIPTION="PyPI Python eggs package management tool"
+SRC_URI="${SRC_URI%.tar.gz}.zip"
 
 ARCH=noarch
 
-python_setuptools_CONTENTS="usr/bin/*-2.* "${PYTHON_SITELIB#/}" usr/share/doc/"
+python2_setuptools_CONTENTS="usr/bin/*-${PYTHON2_VERSION} ${python2_setuptools_CONTENTS}"
+python3_setuptools_CONTENTS="usr/bin/*-${PYTHON3_VERSION} ${python3_setuptools_CONTENTS}"
 PKG_IGNORE="usr/bin/easy_install"
