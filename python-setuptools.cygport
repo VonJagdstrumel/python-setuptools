@@ -1,7 +1,8 @@
+PYTHON_WHEEL_VERSIONS="all"
 inherit python-wheel
 
 NAME="python-setuptools"
-VERSION=34.3.2
+VERSION=40.7.3
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python package management tool"
@@ -10,6 +11,22 @@ SRC_URI="${SRC_URI%.tar.gz}.zip"
 
 ARCH=noarch
 
-python2_setuptools_CONTENTS="usr/bin/*-${PYTHON2_VERSION} ${python2_setuptools_CONTENTS}"
-python3_setuptools_CONTENTS="usr/bin/*-${PYTHON3_VERSION} ${python3_setuptools_CONTENTS}"
-PKG_IGNORE="usr/bin/easy_install"
+PKG_NAMES+=" ${NAME}-wheel"
+python_setuptools_wheel_CONTENTS="
+	usr/share/python-wheels/setuptools-*.whl
+	usr/share/doc/${NAME}-wheel/
+"
+python27_setuptools_CONTENTS+=" usr/bin/*-2.7"
+python34_setuptools_CONTENTS+=" usr/bin/*-3.4"
+python35_setuptools_CONTENTS+=" usr/bin/*-3.5"
+python36_setuptools_CONTENTS+=" usr/bin/*-3.6"
+python37_setuptools_CONTENTS+=" usr/bin/*-3.7"
+#PKG_IGNORE="usr/bin/easy_install"
+
+src_install() {
+	cd ${B}
+	python_wheel_install
+
+	insinto /usr/share/python-wheels
+	doins dist/setuptools-${VERSION}-py2.py3-none-any.whl
+}
