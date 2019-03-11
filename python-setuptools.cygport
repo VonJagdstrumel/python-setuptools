@@ -2,7 +2,7 @@ PYTHON_WHEEL_VERSIONS="all"
 inherit python-wheel
 
 NAME="python-setuptools"
-VERSION=40.7.3
+VERSION=40.8.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python package management tool"
@@ -21,6 +21,7 @@ python34_setuptools_CONTENTS+=" usr/bin/*-3.4"
 python35_setuptools_CONTENTS+=" usr/bin/*-3.5"
 python36_setuptools_CONTENTS+=" usr/bin/*-3.6"
 python37_setuptools_CONTENTS+=" usr/bin/*-3.7"
+python38_setuptools_CONTENTS+=" usr/bin/*-3.8"
 #PKG_IGNORE="usr/bin/easy_install"
 
 src_install() {
