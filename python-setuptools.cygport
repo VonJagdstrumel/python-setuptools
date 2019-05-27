@@ -2,7 +2,7 @@ PYTHON_WHEEL_VERSIONS="all"
 inherit python-wheel
 
 NAME="python-setuptools"
-VERSION=40.8.0
+VERSION=40.9.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python package management tool"
