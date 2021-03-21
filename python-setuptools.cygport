@@ -1,12 +1,11 @@
 inherit python-wheel
 
 NAME="python-setuptools"
-VERSION=49.6.0
+VERSION=54.1.1
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python package management tool"
 DESCRIPTION="PyPI Python eggs package management tool"
-SRC_URI="${SRC_URI%.tar.gz}.zip"
 
 ARCH=noarch
 
@@ -15,8 +14,6 @@ python_setuptools_wheel_CONTENTS="
 	usr/share/python-wheels/setuptools-*.whl
 	usr/share/doc/${NAME}-wheel/
 "
-python39_setuptools_CONTENTS+=" usr/bin/*-3.9"
-#PKG_IGNORE="usr/bin/easy_install"
 
 src_install() {
 	cd ${B}
