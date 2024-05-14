@@ -1,13 +1,13 @@
 inherit python-wheel
 
 NAME="python-setuptools"
-VERSION=60.2.0
+VERSION=69.5.1
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python package management tool"
 DESCRIPTION="PyPI Python eggs package management tool"
 
-PATCH_URI="python-setuptools-60.2.0-1.src.patch"
+PATCH_URI="python-setuptools.patch"
 
 ARCH=noarch
 

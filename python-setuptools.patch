@@ -8,19 +8,6 @@
      if dry_run:
          return
  
---- origsrc/setuptools-60.2.0/setuptools/_distutils/cygwinccompiler.py	2021-12-29 22:29:53.000000000 +0100
-+++ src/setuptools-60.2.0/setuptools/_distutils/cygwinccompiler.py	2022-01-10 03:53:31.166400400 +0100
-@@ -101,9 +101,7 @@ class CygwinCCompiler(UnixCCompiler):
-     compiler_type = 'cygwin'
-     obj_extension = ".o"
-     static_lib_extension = ".a"
--    shared_lib_extension = ".dll"
--    static_lib_format = "lib%s%s"
--    shared_lib_format = "%s%s"
-+    shared_lib_extension = ".dll.a"
-     exe_extension = ".exe"
- 
-     def __init__(self, verbose=0, dry_run=0, force=0):
 --- origsrc/setuptools-60.2.0/setuptools/_distutils/unixccompiler.py	2021-12-29 22:29:53.000000000 +0100
 +++ src/setuptools-60.2.0/setuptools/_distutils/unixccompiler.py	2022-01-10 03:53:12.708338000 +0100
 @@ -81,6 +81,7 @@ class UnixCCompiler(CCompiler):
@@ -29,5 +16,5 @@
          exe_extension = ".exe"
 +        dylib_lib_extension = ".dll.a"
  
-     def preprocess(self, source, output_file=None, macros=None,
-                    include_dirs=None, extra_preargs=None, extra_postargs=None):
+     def preprocess(
+         self,
